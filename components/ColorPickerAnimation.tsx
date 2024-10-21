@@ -21,7 +21,6 @@ const ColorPickerAnimation = () => {
   }, []);
 
   const rStyle = useAnimatedStyle(() => {
-    console.log(pickedColor.value);
     return {
       backgroundColor: pickedColor.value as string,
     };
